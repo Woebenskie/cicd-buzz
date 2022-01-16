@@ -1,5 +1,8 @@
 import unittest
-
+import sys
+sys.path.append('/home/runner/work/cicd-buzz/cicd-buzz')
+sys.path.append('/mnt/c/Users/Ruben/PycharmProjects/cicd-buzz')
+#print(sys.path)
 from buzz import generator
 
 def test_sample_single_word():
